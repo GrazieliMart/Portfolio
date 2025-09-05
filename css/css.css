@@ -1,0 +1,39 @@
+  .bg-vscode-blue { background-color: #d5c8be !important; }
+    #gallery::-webkit-scrollbar { display: none; }
+    #gallery { -ms-overflow-style: none; scrollbar-width: none; }
+    .h-48 { height: 20rem !important; }
+    :root {
+      --vscode-bg: #1e1e1e;
+      --vscode-text: #2e2e2e;
+      --vscode-blue: #97adb9;
+      --vscode-purple: #c586c0;
+      --vscode-comment: #6a9955;
+    }
+    html { scroll-behavior: smooth; }
+    body { background-color: var(--vscode-bg); color: var(--vscode-text); font-family: 'Montserrat', sans-serif; }
+    .typewriter { font-family: 'Cascadia Code', monospace; white-space: nowrap; overflow: hidden; border-right: 2px solid var(--vscode-text); animation: blink 0.7s infinite; }
+    @keyframes blink { 0%, 100% { border-color: var(--vscode-text); } 50% { border-color: transparent; } }
+    header { position: fixed; top: 0; left: 0; width: 100%; z-index: 10; }
+    nav a { position: relative; font-size: 12px; text-transform: uppercase; color: var(--vscode-text); transition: color 0.3s ease; }
+    nav a:hover { color: var(--vscode-blue); }
+    .social-icons a { display: inline-block; padding: 1px 6px; background-color: black; border-radius: 50%; color: white; transition: background-color 0.2s, color 0.2s; }
+    .social-icons a:hover { background-color: #d5c8be; color: white; }
+    #social a:hover { color: rgb(0,0,0); transition: 0.2s; }
+    ::-webkit-scrollbar { width: 10px; }
+    ::-webkit-scrollbar-track { background: #f1f1f1; }
+    ::-webkit-scrollbar-thumb { background: #888; border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: #555; }
+    ::selection { background-color: #0c0b0b; color: #d5c8be; }
+    ::-webkit-selection { background-color: #0c0b0b; color: #d5c8be; }
+    img { -webkit-user-drag: none; user-drag: none; }
+    * { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+    header img { height: 70px; }
+    .overlay { background: rgba(0,0,0,0.7); }
+    .fullscreen { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90vw; max-height: 90vh; z-index: 50; transition: transform 0.5s ease; }
+    .fade-in { opacity: 0; animation: fadeIn 2s forwards; }
+    @keyframes fadeIn { to { opacity: 1; } }
+    img:hover { filter: brightness(0.3); cursor: pointer; transition: 0.2s; }
+    .keyword { color: #569CD6; }
+    .string  { color: #CE9178; }
+    .var     { color: #9CDCFE; }
+    .symbol  { color: #D4D4D4; }

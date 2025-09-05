@@ -3,286 +3,69 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <meta name="description" content="Portfólio de Grazieli: Desenvolvedora e Designer com projetos em web, branding e arte digital.">
+  <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
   <link href="https://fonts.cdnfonts.com/css/cascadia-code" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <title>Grazieli Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Grazieli Portfolio - Desenvolvedora & Designer</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <style>.bg-vscode-blue {
-    background-color: #d5c8be !important;
-} #gallery::-webkit-scrollbar {
-    display: none;
-  }
-  #gallery {
-    -ms-overflow-style: none; /* IE e Edge */
-    scrollbar-width: none;     /* Firefox */
-  }
-  .h-48 {
-    height: 20rem !important;
-}
-    /* VS Code dark theme palette */
-    :root {
-      --vscode-bg: #1e1e1e;
-      --vscode-text: #2e2e2e;
-      --vscode-blue: #97adb9;
-      --vscode-purple: #c586c0;
-      --vscode-comment: #6a9955;
-    }
-    html {
-  scroll-behavior: smooth;
-}
-
-    @tailwind base;
-    @tailwind components;
-    @tailwind utilities;
-
-    body {
-      background-color: var(--vscode-bg);
-      color: var(--vscode-text);
-    }body {
-  font-family: 'Montserrat', sans-serif; /* Set Montserrat as the default font */
-}
-
-.typewriter {
-  font-family: 'Cascadia Code', monospace; /* Keep Cascadia Code for the typewriter */
-}
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-  }
-
-  nav a {
-    position: relative;
-  }
-
-  /* Style for social icons */
-  .social-icons a {
-
-    display: inline-block;
-    padding: 1px 6px;
-    background-color: black;
-    border-radius: 50%;
-    color: white;
-    transition: background-color 0.2s, color 0.2s;
-  }#social a {
-   transition: 0.2s;
-   
-  }
-  /* Estilo para a barra de rolagem */
-::-webkit-scrollbar {
-  width: 10px; /* Largura da barra de rolagem */
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Cor de fundo da barra de rolagem */
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888; /* Cor do 'thumb' (a parte que desliza) */
-  border-radius: 10px; /* Bordas arredondadas no thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Cor do thumb quando o mouse está sobre ele */
-}
-/* Altera a cor de fundo da seleção de texto */
-::selection {
-    background-color: #0c0b0b;
-    color: #d5c8be;
-}
-
-/* Para navegadores Webkit (Chrome, Safari) */
-::-webkit-selection {
-  background-color: #0c0b0b;
-  color: #d5c8be;
-}
-
-
-#social a:hover {
-   transition: 0.2s;
-    color: rgb(0, 0, 0);
-  }
-  .social-icons a:hover {
-    background-color: #d5c8be;
-    color: rgb(255, 255, 255);
-  }
-/* Impede o clique direito nas imagens */
-
-
-/* Impede o "drag and drop" nas imagens */
-img {
-  -webkit-user-drag: none;
-  user-drag: none;
-}
-
-/* Desabilita a seleção de texto e imagens */
-* {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-  .social-icons i {
-    font-size:12px;
-  }
-    .typewriter {
-  font-family: 'Cascadia Code', monospace;
-}
-header img{
-    height: 70px;
-  
-}
-    .typewriter {
-    
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 2px solid var(--vscode-text);
-      animation: blink 0.7s infinite;
-    }
-
-    @keyframes blink {
-      0%, 100% { border-color: var(--vscode-text); }
-      50% { border-color: transparent; }
-    }
-
-    .nav-link {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: var(--vscode-text);
-    transition: color 0.3s ease;
-}
-    .nav-link:hover {
-      color: var(--vscode-blue);
-    }
-
-    .overlay {
-      background: rgba(0, 0, 0, 0.7);
-    }
-
-    .fullscreen {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      max-width: 90vw;
-      max-height: 90vh;
-      z-index: 50;
-      transition: transform 0.5s ease;
-    }
-
-    .bg-vscode-blue {
-      background-color: var(--vscode-blue);
-    }
-    .text-vscode-purple {
-      color: var(--vscode-purple);
-    }
-    .text-vscode-comment {
-      color: var(--vscode-comment);
-    }
-    .fade-in {
-  opacity: 0;
-  animation: fadeIn 2s forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-img:hover {
-  filter: brightness(0.3);
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-
-  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <link rel="stylesheet" href="css/css.css">
 </head>
-<body id="top" >
+<body id="top">
 
-    <header class="flex justify-center items-center px-6 py-4 bg-[#fff] shadow-md" style="gap: 100px;">
-        <img src="logo.png" alt="Logo" />
-        
-        <!-- Menu de navegação (desaparece em telas pequenas) -->
-        <nav class="flex space-x-6 hidden md:flex">
-          <a href="#about" class="nav-link">About</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#contact" class="nav-link">Contact</a>
-        </nav>
-        
-        <!-- Redes sociais (desaparecem em telas pequenas) -->
-        <div class="flex items-center space-x-4 social-icons hidden md:flex">
-          <a href="https://www.instagram.com/grazi.mart/"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/grazieli-freitas-martins-61329b258/"><i class="bi bi-linkedin"></i></a>
-          <a href="https://github.com/GrazieliMart"><i class="bi bi-github"></i></a>
-        </div>
-      
-        <!-- Bandeiras (desaparecem em telas pequenas) -->
-        <div class="flex items-center space-x-4  md:flex" id="flags">
-          <a href="index-br.html"><img src="br.png" class="h-5 ml-4 cursor-pointer" alt="Português" /></a>
-          <a href="index.html"><img src="ie.png" class="h-5 cursor-pointer " alt="English"/></a>
-        </div>
-      </header>
-      
-<!-- Back to Top Button -->
-<a href="#top" id="backToTop" class="fixed bottom-6 right-6 bg-vscode-blue text-white rounded-full p-3 shadow-lg hover:bg-vscode-purple transition-colors">
-    ↑
-  </a>
-  
- <!-- HERO -->
- <section class="relative flex flex-col items-center justify-center min-h-[100vh] w-full overflow-hidden" id="about">
-    <!-- Vídeo em loop no fundo -->
-    <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
-      <source src="video.webm" type="video/mp4">
-      Seu navegador não suporta vídeo HTML5.
-    </video>
-  
-    <!-- Conteúdo acima do vídeo -->
-    <div class="relative z-[5] text-white text-center px-4 max-w-4xl" >
-      <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Hi, I'm Grazi! <br> Developer & Designer</h1>
-      <div id="typewriter" class="text-xl md:text-2xl lg:text-3xl font-mono mb-6"></div>
-      <p class="text-base md:text-lg lg:text-xl leading-relaxed">
-        Developer and Designer with experience in both individual and team-based projects. Background includes corporate full stack development with emphasis on website creation, systems analysis and development, web services, and game development. <br><br>As a designer, holds specialization in crafting digital marketing solutions focused on user experience, brand visibility, and strategic communication.
-      </p>
-    </div>
-  </section>
-  
-  
-  <style>
-    .keyword { color: #569CD6; }   /* blue - keywords like if, return */
-    .string  { color: #CE9178; }   /* red/orange - string literals */
-    .var     { color: #9CDCFE; }   /* light blue - variables */
-    .symbol  { color: #D4D4D4; }   /* default - symbols like =, (), ; */
-  </style>
-<!-- BLUE OCEAN SECTION -->
-<!-- BLUE OCEAN SECTION -->
-<section class="bg-vscode-blue text-white py-16 px-5 sm:px-5 text-center" id="about">
-  <div class="max-w-7xl mx-auto" data-bs-aos="fade-up">
+<header class="flex justify-center items-center px-6 py-4 bg-[#fff] shadow-md" style="gap: 100px;">
+  <img src="assets/logo.png" alt="Logo Grazieli" />
+  <nav class="flex space-x-6 hidden md:flex">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="flex items-center space-x-4 social-icons hidden md:flex">
+
+    <a href="https://www.linkedin.com/in/grazieli-freitas-martins-61329b258/"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/GrazieliMart"><i class="bi bi-github"></i></a>
+  </div>
+  <div class="flex items-center space-x-4 md:flex" id="flags">
+    <a href="index-br.html"><img src="assets/br.png" class="h-5 ml-4 cursor-pointer" alt="Português" /></a>
+    <a href="index.html"><img src="assets/ie.png" class="h-5 cursor-pointer" alt="English"/></a>
+  </div>
+</header>
+
+<a href="#top" id="backToTop" class="fixed bottom-6 right-6 bg-vscode-blue text-white rounded-full p-3 shadow-lg hover:bg-vscode-purple transition-colors">↑</a>
+
+<section class="relative flex flex-col items-center justify-center min-h-[100vh] w-full overflow-hidden" id="about">
+  <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover z-0">
+    <source src="assets/video.webm" type="video/mp4">
+  </video>
+  <div class="relative z-[5] text-white text-center px-4 max-w-4xl">
+    <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Hi, I'm Grazi! <br> Developer & Designer</h1>
+    <div id="typewriter" class="text-xl md:text-2xl lg:text-3xl font-mono mb-6"></div>
+    <p class="text-base md:text-lg lg:text-xl leading-relaxed">
+      Developer and Designer with experience in both individual and team-based projects. Background includes corporate full stack development, website creation, systems analysis, web services, and game development. As a designer, specializes in digital marketing solutions focused on user experience, brand visibility, and strategic communication.
+    </p>
+  </div>
+</section>
+
+<section class="bg-vscode-blue text-white py-16 px-5 sm:px-5 text-center" id="projects">
+  <div class="max-w-7xl mx-auto" data-aos="fade-up">
     <h3 class="text-2xl font-bold mb-6 text-white">Dev's Projects</h3>
 
-    <!-- Primeiro projeto -->
-    <div class="relative flex flex-col mb-8" data-bs-aos="fade-up">
+    <div class="relative flex flex-col mb-8" data-aos="fade-up">
       <a href="https://studioforja.ie/" class="block relative">
-        <img src="studio.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" />
+        <img src="assets/studio.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" alt="Irish Design Studio Website" />
         <div class="absolute bottom-0 left-0 w-full p-6 text-left bg-gradient-to-t from-black via-black to-transparent text-white">
           <h2 class="text-2xl font-bold mb-2">Irish Design Studio Website</h2>
-          <p>I developed the entire aesthetic of the company and was responsible for creating all the software. I also managed the social media presence and designed the brand identity.</p>
+          <p>Developed the aesthetic and software, managed social media and designed brand identity.</p>
           <a href="https://studioforja.ie/" target="_blank" class="inline-block mt-4 px-5 py-2 border border-white text-white rounded-lg transition hover:bg-white hover:text-black">See Online</a>
         </div>
       </a>
     </div>
 
-    <!-- Projeto com vídeo -->
-    <div class="relative flex flex-col mb-8" data-bs-aos="fade-up">
+    <div class="relative flex flex-col mb-8" data-aos="fade-up">
       <video class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" autoplay loop muted playsinline>
-        <source src="wd.webm" type="video/mp4">
-        Seu navegador não suporta o elemento de vídeo.
+        <source src="assets/wd.webm" type="video/mp4">
       </video>
       <div class="absolute bottom-0 left-0 w-full p-6 text-left bg-gradient-to-t from-black via-black to-transparent text-white">
         <h2 class="text-2xl font-bold mb-2">WD BLACK I BGS 2024</h2>
@@ -290,226 +73,87 @@ img:hover {
       </div>
     </div>
 
-    <!-- Segundo projeto -->
-    <div class="relative flex flex-col mb-8" data-bs-aos="fade-up">
+    <div class="relative flex flex-col mb-8" data-aos="fade-up">
       <a href="https://imigratoria.com/" class="block relative">
-        <img src="imigratoria.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" />
+        <img src="assets/imigratoria.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" alt="IMIGRATORIA Website" />
         <div class="absolute bottom-0 left-0 w-full p-6 text-left bg-gradient-to-t from-black via-black to-transparent text-white">
           <h2 class="text-2xl font-bold mb-2">IMIGRATORIA</h2>
-          <p>Website for IMIGRATORIA, as well as the complete visual identity and brand strategy. This included logo design, color palette, typography, and all branding assets to ensure a cohesive and impactful presence.</p>
+          <p>Website and complete visual identity including logo, color palette, typography, and branding assets.</p>
           <a href="https://imigratoria.com/" target="_blank" class="inline-block mt-4 px-5 py-2 border border-white text-white rounded-lg transition hover:bg-white hover:text-black">See Online</a>
         </div>
       </a>
     </div>
 
-    <div class="relative flex flex-col mb-8" data-bs-aos="fade-up">
+    <div class="relative flex flex-col mb-8" data-aos="fade-up">
       <a href="https://www.psicosarapazini.com.br/" class="block relative">
-        <img src="sara pazini.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" />
+        <img src="assets/sara pazini.png" class="h-[400px] sm:h-[700px] w-full object-cover rounded shadow-lg mb-6 filter brightness-50" alt="Psicóloga Sara Pazini" />
         <div class="absolute bottom-0 left-0 w-full p-6 text-left bg-gradient-to-t from-black via-black to-transparent text-white">
-          <h2 class="text-2xl font-bold mb-2">PSICÓLOGA SARA pazini</h2>
-          <p>Sara Pazini’s project includes a fully developed website and a complete brand identity system. The visual direction, logo, color palette, and typography were carefully designed to communicate her values as a psychologist and to create a calm, trustworthy, and professional online presence.</p>
+          <h2 class="text-2xl font-bold mb-2">PSICÓLOGA SARA PAZINI</h2>
+          <p>Complete website and brand identity system designed to communicate values as a psychologist.</p>
           <a href="https://www.psicosarapazini.com.br/" target="_blank" class="inline-block mt-4 px-5 py-2 border border-white text-white rounded-lg transition hover:bg-white hover:text-black">See Online</a>
         </div>
       </a>
     </div>
-    <h3 class="text-2xl font-bold mb-6 text-white">To see more projects that I worked, visit: <a href="https://marketinggdigital.com/" style="color: #2e2e2e; text-decoration: underline;">marketinggdigital.com</a></h3>
+
+    <h3 class="text-2xl font-bold mb-6 text-white">
+      To see more projects, visit: 
+      <a href="https://marketinggdigital.com/" style="color: #2e2e2e; text-decoration: underline;">marketinggdigital.com</a>
+    </h3>
   </div>
 </section>
 
-<script>// Desativa o clique direito na página
-    document.addEventListener('contextmenu', function (event) {
-      event.preventDefault();
-    });
-    </script>  
-  
-  
-  
-  
-  
+<section class="py-16 bg-[#000] text-center">
+  <h3 class="text-2xl font-bold mb-6" style="color: #c7c7c7;">Art Gallery</h3>
+  <div class="flex justify-center space-x-4">
+    <div class="relative w-full">
+      <button onclick="scrollGallery(-300)" class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 z-10 rounded-full hover:bg-black/70">&#8592;</button>
+      <div id="gallery" class="flex overflow-x-auto space-x-4 px-10 scroll-smooth">
+        <img src="assets/art (1).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 1" />
+        <img src="assets/art (2).png" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 2" />
+        <img src="assets/art (3).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 3" />
+        <img src="assets/art (4).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 4" />
+        <img src="assets/art (5).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 5" />
+        <img src="assets/art (6).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 6" />
+        <img src="assets/art (7).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 7" />
+        <img src="assets/art (8).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 8" />
+        <img src="assets/art (9).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 9" />
+        <img src="assets/art (10).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 10" />
+        <img src="assets/art (11).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 11" />
+        <img src="assets/art (12).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 12" />
+        <img src="assets/art (13).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 13" />
+        <img src="assets/art (14).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 14" />
+        <img src="assets/art (15).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 15" />
+        <img src="assets/art (16).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 16" />
+        <img src="assets/art (17).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" alt="Art 17" />
+      </div>
+      <button onclick="scrollGallery(300)" class="absolute right-3 top-1/2 -translate-y-1/2 bg-black text-white p-2 z-10 rounded-full hover:bg-black/70">&#8594;</button>
+    </div>
+  </div>
+  <div id="overlay" class="fixed inset-0 hidden items-center justify-center overlay z-40" onclick="closeImage()">
+    <img id="fullscreenImage" class="fullscreen" alt="Expanded Art"/>
+    <button class="absolute top-4 right-4 text-white text-2xl z-50" onclick="closeImage()">✕</button>
+  </div>
+</section>
 
-  <!-- GALLERY -->
-    <section class="py-16 bg-[#000] text-center" >
-        <h3 class="text-2xl font-bold mb-6" style="color: #c7c7c7;">Art Gallery</h3>
-        <div class="flex justify-center space-x-4">
-        
-            <div class="relative w-full">
-                <!-- Botão esquerdo -->
-                <button onclick="scrollGallery(-300)"
-                        class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 z-10 rounded-full hover:bg-black/70">
-                  &#8592;
-                </button>
-              
-                <!-- Galeria rolável -->
-                <div id="gallery" class="flex overflow-x-auto space-x-4 px-10 scroll-smooth">
-                  <img src="art (1).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (2).png" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (3).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (4).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (5).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (6).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (7).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (8).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (9).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (10).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (11).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (12).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (13).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (14).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (15).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (16).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                  <img src="art (17).jpeg" class="h-48 cursor-pointer rounded shadow" onclick="expandImage(this)" />
-                </div>
-              
-                <!-- Botão direito -->
-                <button onclick="scrollGallery(300)"
-                        class="absolute right-3 top-1/2 -translate-y-1/2 bg-black text-white p-2 z-10 rounded-full hover:bg-black/70">
-                  &#8594;
-                </button>
-              </div>
-              
-              <script>
-                function scrollGallery(distance) {
-                  const gallery = document.getElementById('gallery');
-                  gallery.scrollBy({ left: distance, behavior: 'smooth' });
-                }
-              </script>
-              
-        </div>
-        <div id="overlay" class="fixed inset-0 hidden items-center justify-center overlay z-40" onclick="closeImage()">
-        <img id="fullscreenImage" class="fullscreen" />
-        <button class="absolute top-4 right-4 text-white text-2xl z-50" onclick="closeImage()">✕</button>
-        </div>
-    </section>
-
-  <!-- FOOTER -->
-  <footer class="bg-[#2d2d2d] text-white py-8 text-center" id="contact">
-    <h4 class="text-xl font-semibold">Get in touch</h4>
-    <br>
-    
-    <!-- Imagem centralizada com border-radius de 50% -->
-    <img src="me.jpeg" alt="" class="mx-auto rounded-full w-24 h-24 object-cover">
+<footer class="bg-[#2d2d2d] text-white py-8 text-center" id="contact">
+  <h4 class="text-xl font-semibold">Get in touch</h4>
   <br>
-    <p class="mb-4" style="color: #d5c8be;">grazielimartins5@email.com</p>
-    
-    <!-- Links sociais -->
-    <div class="flex justify-center space-x-4" id="social">
-      <a href="https://www.instagram.com/grazi.mart/"><i class="bi bi-instagram"></i></a>
-      <a href="https://www.linkedin.com/in/grazieli-freitas-martins-61329b258/"><i class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/GrazieliMart"><i class="bi bi-github"></i></a>
-    </div> 
+  <img src="assets/me.jpeg" alt="Grazieli Portrait" class="mx-auto rounded-full w-24 h-24 object-cover">
+  <br>
+  <p class="mb-4" style="color: #d5c8be;">grazielimartins5@email.com</p>
+  <div class="flex justify-center space-x-4" id="social">
   
-    <!-- Logo -->
-    <div class="flex justify-center space-x-4">
-      <img src="logo-white.png" alt="" style="margin-left: 10px;">
-    </div> 
-  </footer>
-  
+    <a href="https://www.linkedin.com/in/grazieli-freitas-martins-61329b258/"><i class="bi bi-linkedin"></i></a>
+    <a href="https://github.com/GrazieliMart"><i class="bi bi-github"></i></a>
+  </div> 
+  <div class="flex justify-center space-x-4">
+    <img src="assets/logo-white.png" alt="Logo Grazieli White" style="margin-left: 10px;">
+  </div> 
+</footer>
 
-  <!-- SCRIPT -->
-  <script>
-    const phrases = [
-    [
-      { text: "if", class: "keyword" },
-      { text: "(", class: "symbol" },
-      { text: "programmer", class: "var" },
-      { text: " === ", class: "symbol" },
-      { text: "true", class: "keyword" },
-      { text: ")", class: "symbol" },
-      { text: " return ", class: "keyword" },
-      { text: `"Hello World! I'm Grazieli!"`, class: "string" },
-      { text: ";", class: "symbol" }
-    ],
-    [
-      { text: "if", class: "keyword" },
-      { text: "(", class: "symbol" },
-      { text: "designer", class: "var" },
-      { text: " === ", class: "symbol" },
-      { text: "true", class: "keyword" },
-      { text: ")", class: "symbol" },
-      { text: " return ", class: "keyword" },
-      { text: `"Creative by heart"`, class: "string" },
-      { text: ";", class: "symbol" }
-    ],
-    [
-      { text: "if", class: "keyword" },
-      { text: "(", class: "symbol" },
-      { text: "gameDev", class: "var" },
-      { text: " === ", class: "symbol" },
-      { text: "true", class: "keyword" },
-      { text: ")", class: "symbol" },
-      { text: " return ", class: "keyword" },
-      { text: `"Let the games begin!"`, class: "string" },
-      { text: ";", class: "symbol" }
-    ]
-  ];
-
-  let i = 0;
-  let j = 0;
-  let charIndex = 0;
-  let isDeleting = false;
-  const typewriter = document.getElementById("typewriter");
-
-  function loop() {
-    const tokens = phrases[i];
-    let output = "";
-    let remaining = charIndex;
-    let done = true;
-
-    for (const token of tokens) {
-      if (remaining >= token.text.length) {
-        output += `<span class="${token.class}">${token.text}</span>`;
-        remaining -= token.text.length;
-      } else {
-        if (remaining > 0) {
-          output += `<span class="${token.class}">${token.text.slice(0, remaining)}</span>`;
-        }
-        done = false;
-        break;
-      }
-    }
-
-    typewriter.innerHTML = output;
-
-    if (!isDeleting) {
-      if (!done) {
-        charIndex++;
-        setTimeout(loop, 80);
-      } else {
-        isDeleting = true;
-        setTimeout(loop, 1000);
-      }
-    } else {
-      if (charIndex > 0) {
-        charIndex--;
-        setTimeout(loop, 40);
-      } else {
-        isDeleting = false;
-        i = (i + 1) % phrases.length;
-        setTimeout(loop, 300);
-      }
-    }
-  }
-
-  loop();
-    function expandImage(img) {
-      const overlay = document.getElementById('overlay');
-      const fullscreenImage = document.getElementById('fullscreenImage');
-      fullscreenImage.src = img.src;
-      overlay.classList.remove('hidden');
-      overlay.classList.add('flex');
-    }
-
-    function closeImage() {
-      const overlay = document.getElementById('overlay');
-      overlay.classList.add('hidden');
-      overlay.classList.remove('flex');
-    }
-  </script>
-  <!-- Adicionar ao head do seu HTML -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
-  AOS.init(); // Inicializa o AOS
+
 </script>
 
 </body>
